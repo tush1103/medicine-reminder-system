@@ -9,6 +9,7 @@ CREATE TABLE IF NOT EXISTS orders (
   medicine_name VARCHAR(255) NOT NULL,
   dosage_frequency INT NOT NULL,
   supply_days INT NOT NULL,
+  dose_times JSON NOT NULL,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
