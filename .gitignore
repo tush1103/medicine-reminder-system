@@ -24,3 +24,8 @@ npm-debug.log*
 # IDE
 .vscode/
 .idea/
+
+# Personal files (not part of the project)
+prep-plan.md
+*.docx
+*.pdf
